@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Travel and Exploration</title>
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#home">Начало</a></li>
+            <li><a href="#about">За Нас</a></li>
+            <li><a href="#destinations">Дестинации</a></li>
+            <li><a href="#contact">Контакт</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="column">
+            <h1>Да Откриваме Заедно</h1>
+            <p>Изследвайте нови светове и създавайте спомени, които ще продължат цял живот.</p>
+        </div>
+        <div class="column">
+            <!-- Add an image or illustration here -->
+        </div>
+    </section>
+
+    <!-- Destinations Section -->
+    <section class="destinations">
+        <h2>Популярни Дестинации</h2>
+        <div class="destination-card"> <!-- Repeat this block for each destination -->
+            <img src="destination1.jpg" alt="Destination 1">
+            <h3>Дестинация 1</h3>
+            <p>Описание на дестинация 1...</p>
+        </div>
+        <!-- Repeat destination-card block for other destinations -->
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Пътешествия и Изследвания</p>
+    </footer>
+</body>
+</html>
